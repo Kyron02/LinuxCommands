@@ -1,0 +1,49 @@
+Linux Commands 
+ls (list): shows files and folders in the current directory. 
+ls -l (list): shows files and folders in the current directory with extra details.
+ls -la (list): shows hidden files and folders in the current directory as well.
+Pwd (print working directory): Displays the directory you are in.
+cd <path>: Used to change directory to given path. 
+cd : goes to home
+cd .. : goes one directory backward
+touch <file-name>: Creates a file with given <file-name>. Give multiple <file-name> args to create multiple files.
+Vim <file-name>: open files using vim editor.
+Press i to enter INSERT mode. Write your text. Press Esc to leave INSERT mode. Press :wq to save and exit file. 
+Echo <text> > <file-name>: Enter text into file-name from cmd line using > symbol.
+Echo <text> >> <file-name>: Append text at the end of the file ecfrom cmd line using >> symbol.
+Cat <file-name>: View contents of file-name in CLI.
+Cat <file-name1> >> <file-name2> : Append file1 content at the end of file2.
+mkdir <directory-name> : Create a new directory with name as <directory-name>.
+cp <file-name> <directory-name>: Create a copy of <file-name> and put it in <directory-name> dir.
+Use .. (2 dots) to access higher (previous) directories. By using N .., u can go N directories back.
+mv <file-name> <directory-name>: Move the file <file-name> into <directory-name> dir.
+rm <file-name>: delete file.
+rmdir <directory-name>: delete directory.
+clear: Clear the terminal.
+whoami: find out the name of current user.
+man <cmd>: Shows the manual for the command <cmd>
+whatis <cmd>: Brief info about the cmd.
+which <cmd> : Shows one location of the cmd.
+whereis <cmd> : Shows all the location of the cmd.
+wget <url>: download files from the internet directly to your active directory.
+curl <url> > <file-name/directory>: download files from the internet into any location or file u want.
+zip <zip-file-name.zip> <file-to-be-zipped>: zip a large file into a zip file. Reduce size.
+unzip <zip-file-name.zip>: Unzip the zip file.
+less <file-name>: shows contents of the file one page at a time. Useful for huge files.
+head <file-name>: See the beginning of the file.
+tail <file-name>: See the end of the file.
+cmp <file-name1> <file-name2>: Compares the contents of 2 files. Tells u where they are different. 
+diff <file-name1> <file-name2>: Shows the exact differences in content between the 2 files.
+sudo find <directory> -name <file-name>: Shows wherever the file-name file exists in the given directory.
+chmod <permission/config> <filename>: change permissions (read, write, execute) of the filename.
+chown <username> <filename>: make username the owner of the file. 
+sudo apt install <package>: install packages.
+ifconfig or ip address : Gives IP address.
+free: Info about ur memory.
+df or df -H : Disk space info.
+ps -aux: info about processes running on system.
+htop: resource consumption info of processes.
+history: gives a list of all cmds executed.
+Bash Script
+
+
